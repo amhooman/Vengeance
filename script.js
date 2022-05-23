@@ -126,7 +126,7 @@ ugly.setAttribute("class", "obtn")
 ugly.innerText = "Uglify"
 var piano = document.createElement("button")
 piano.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/Browncha023/Vengeance@main/piano.js';document.body.appendChild(script);avoclosedevtools()}())")
-piano.setAttribute("clas
+piano.setAttribute("class", "obtn")
 piano.innerText = "Piano"
 var tri = document.createElement("button")
 tri.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/Browncha023/Vengeance@main/tri.js';document.body.appendChild(script);avoclosedevtools()}())")
