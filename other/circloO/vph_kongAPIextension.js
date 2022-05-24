@@ -1,31 +1,3 @@
-/* version 1.1
-
-	KONGREGATE (C) API Extension for GameMaker:Studio
-
---	Written by Dexter Friedman (July 15, 2012)
---	Feel free to redistribute this extension, but don't
-    violate Kongregate's terms of service, if they have any.
-    I just made a Javascript wrapper. Please don't sue me!
-
-
------- Version History -------
------- Version 1.1
-
-  (March 6, 2013)
-
- > Added kongGetUserID()
- > Made error console output print to console.error
-
------- Version 1.0 >
-
-  (July 15, 2012)
-
- > Created most of the wrapper functions for the Kongregate API
- > Ensured all function calls are surrounded by try-catch so that
-    users can test locally without trouble.
-	
-*/
-
 var version = "1.1";
 
 // Load the API
