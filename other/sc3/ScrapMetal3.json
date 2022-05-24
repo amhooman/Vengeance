@@ -1,7 +1,7 @@
 {
   "companyName": "Browncha023",
   "productName": "ScrapMetal 3",
-  "dataUrl": "https://raw.github.com/Browncha023/Vengeance/main/other/sc3/ScrapMetal3.data.unityweb",
+  "dataUrl": "https://cdn.jsdelivr.net/gh/Browncha023/Vengeance@main/other/sc3/ScrapMetal3.data.unityweb",
   "wasmCodeUrl": "https://cdn.jsdelivr.net/gh/Browncha023/Vengeance@main/other/sc3/ScrapMetal3.wasm.code.unityweb",
   "wasmFrameworkUrl": "https://cdn.jsdelivr.net/gh/Browncha023/Vengeance@main/other/sc3/ScrapMetal3.wasm.framework.unityweb",
   "TOTAL_MEMORY": 486539264,
