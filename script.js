@@ -137,7 +137,7 @@ tgo.setAttribute("onclick", "javascript:(function () {var script=document.create
 tgo.setAttribute("class", "obtn")
 tgo.innerText = "2048go"
 var circ = document.createElement("button")
-circ.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/Browncha023/Vengeance@main/other/circloO_script.min.js';document.body.appendChild(script);avoclosedevtools()}())")
+circ.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/Browncha023/Vengeance@latest/other/circloO_script.min.js';document.body.appendChild(script);avoclosedevtools()}())")
 circ.setAttribute("class", "obtn")
 circ.innerText = "CircloO"
 var ugly = document.createElement("button")
