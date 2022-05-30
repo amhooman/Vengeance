@@ -6,8 +6,8 @@ An addon to [Avo](https://github.com/FogNetwork/Avo) and the successor to [avo-u
 A new favlet featuring unblocked dev tools, games, and more!
 
 ### Todo:
-- Change the favlet style (Done)
-- Add more games (In Progress)
+- Change the favlet style (Done✔️)
+- Add more games (In Progress🚧)
 - Add Shadow DOM
 - Add focus to integrated games
 - Add update check
