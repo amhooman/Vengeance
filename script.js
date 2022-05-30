@@ -208,71 +208,71 @@ thestyle.innerText = "@import url('https://fonts.googleapis.com/css2?family=Robo
 thestyle.innerText += ".avodevtools {font-family: Roboto;}"
 
 // .devtools
-thestyle.innerText += ".avodevtools {position: fixed; right: 8px; top: 8px; bottom: 8px; width: 500px; background: black; color: white; border-radius: 2.5px; text-align: center; z-index: 9999999999;}"
+thestyle.innerText += ".avodevtools {position: fixed; right: 8px; top: 8px; bottom: 8px; width: 500px; background: #292929; color: white; border-radius: 10px; text-align: center; z-index: 9999999999;}"
 
 // .elements
-thestyle.innerText += ".avoelements {cursor: pointer; outline: none; background: transparent; color: #aaa; font-size: 20px; border: 2px solid blue; margin: 0; margin-top: 10px; border-right: none; border-left: none;}"
+thestyle.innerText += ".avoelements {cursor: pointer; outline: none; background: transparent; color: #aaa; font-size: 20px; border: 2px solid #B026FF; margin: 0; margin-top: 10px; border-right: none; border-left: none;}"
 
 thestyle.innerText += ".avoelements:hover {background: #1c1c1c;}"
 
 // .thecode
-thestyle.innerText += ".avothecode {border: 1px solid white; margin: 5px; margin-top: 10px; border-radius: 2.5px; padding: 5px; overflow: scroll; text-align: left; height: 90%;}"
+thestyle.innerText += ".avothecode {border: 1px solid white; margin: 5px; margin-top: 10px; border-radius: 10px; padding: 5px; overflow: scroll; text-align: left; height: 90%;}"
 
 //.avotheother
-thestyle.innerText += ".avotheother {border: 1px solid white; margin: 5px; margin-top: 10px; border-radius: 2.5px; padding: 5px; overflow: scroll; text-align: left; height: 90%; display: none;}"
+thestyle.innerText += ".avotheother {border: 1px solid white; margin: 5px; margin-top: 10px; border-radius: 10px; padding: 5px; overflow: scroll; text-align: left; height: 90%; display: none;}"
 
 // .edit
-thestyle.innerText += ".avoedit {cursor: pointer; outline: none; background: transparent; color: #aaa; font-size: 20px; border: 2px solid blue; border-radius: 2.5px 0 0 2.5px; margin: 0; margin-top: 10px; margin-left: 5px;}"
+thestyle.innerText += ".avoedit {cursor: pointer; outline: none; background: transparent; color: #aaa; font-size: 20px; border: 2px solid #B026FF; border-radius: 10px 0 0 10px; margin: 0; margin-top: 10px; margin-left: 5px;}"
 
 thestyle.innerText += ".avoedit:hover {background: #1c1c1c;}"
 
 // .obtn
-thestyle.innerText += ".obtn {cursor: pointer; outline: none; background: transparent; color: #aaa; font-size: 20px; border: 2px solid blue; border-radius: 2.5px; margin: 0; margin-top: 10px; margin-left: 5px;}"
+thestyle.innerText += ".obtn {cursor: pointer; outline: none; background: transparent; color: #aaa; font-size: 20px; border: 2px solid #B026FF; border-radius: 10px; margin: 0; margin-top: 10px; margin-left: 5px;}"
 
 thestyle.innerText += "#greybtn:hover {background: #1c1c1c;}"
 
 // .xray
-thestyle.innerText += ".avoxray {cursor: pointer; outline: none; background: transparent; color: #aaa; font-size: 20px; border: 2px solid blue; margin: 0; margin-top: 10px; border-left: none;}"
+thestyle.innerText += ".avoxray {cursor: pointer; outline: none; background: transparent; color: #aaa; font-size: 20px; border: 2px solid #B026FF; margin: 0; margin-top: 10px; border-left: none;}"
 
 thestyle.innerText += ".avoxray:hover {background: #1c1c1c;}"
 
 // .console
-thestyle.innerText += ".avoconsole {cursor: pointer; outline: none; background: transparent; color: #aaa; font-size: 20px; border: 2px solid blue; border-right: none; margin: 0; margin-top: 10px;}"
+thestyle.innerText += ".avoconsole {cursor: pointer; outline: none; background: transparent; color: #aaa; font-size: 20px; border: 2px solid #B026FF; border-right: none; margin: 0; margin-top: 10px;}"
 
 thestyle.innerText += ".avoconsole:hover {background: #1c1c1c;}"
 
 // .other
-thestyle.innerText += ".avoother {cursor: pointer; outline: none; background: transparent; color: #aaa; font-size: 20px; border: 2px solid blue; border-radius: 0 2.5px 2.5px 0; margin: 0; margin-top: 10px;}"
+thestyle.innerText += ".avoother {cursor: pointer; outline: none; background: transparent; color: #aaa; font-size: 20px; border: 2px solid #B026FF; border-radius: 0 10px 10px 0; margin: 0; margin-top: 10px;}"
 
 thestyle.innerText += ".avoother:hover {background: #1c1c1c;}"
 
 // .closebtn
-thestyle.innerText += ".avoclosebtn {cursor: pointer; outline: none; background: transparent; color: #aaa; font-size: 20px; border: 2px solid blue; border-radius: 2.5px; margin-right: 10px; margin-top: 10px; float: right;}"
+thestyle.innerText += ".avoclosebtn {cursor: pointer; outline: none; background: transparent; color: #aaa; font-size: 20px; border: 2px solid #B026FF; border-radius: 10px; margin-right: 10px; margin-top: 10px; float: right;}"
 
 thestyle.innerText += ".avoclosebtn:hover {background: #1c1c1c;}"
 
 // .active
-thestyle.innerText += ".avoactive {background: blue; color: white;}"
+thestyle.innerText += ".avoactive {background: #B026FF; color: white;}"
 
-thestyle.innerText += ".avoactive:hover {background: blue;}"
+thestyle.innerText += ".avoactive:hover {background: #B026FF;}"
 
 // #loginput
-thestyle.innerText += "#avologinput {outline: none; border: none; width: 100%; font-size: 15px;background:black;color:white;}"
+thestyle.innerText += "#avologinput {outline: none; border: none; width: 100%; font-size: 15px;background:#292929;color:white;}"
 
 // .loginput2
 thestyle.innerText += ".avologinput2 {display: flex; font-size: 15px;margin: 10px; display: none;}"
 
 // .log
-thestyle.innerText += ".avolog {padding: 2.5px; border-radius: 2.5px; font-size: 15px;margin: 10px; text-align: left;}"
+thestyle.innerText += ".avolog {padding: 2.5px; border-radius: 10px; font-size: 15px;margin: 10px; text-align: left;}"
 
 // #logs
 thestyle.innerText += "#avologs {max-height: 89%; overflow: scroll;display: none;}"
 
 // .error
-thestyle.innerText += ".avoerror {color: red; background: lightpink; padding: 2.5px; border-radius: 2.5px; font-size: 15px;margin: 10px; text-align: left;}"
+thestyle.innerText += ".avoerror {color: red; background: lightpink; padding: 2.5px; border-radius: 10px; font-size: 15px;margin: 10px; text-align: left;}"
 
 // .warn
-thestyle.innerText += ".avowarn {color: black; background: yellow; padding: 2.5px; border-radius: 2.5px; font-size: 15px;margin: 10px; text-align: left;}"
+thestyle.innerText += ".avowarn {color: #292929; background: yellow; padding: 2.5px; border-radius: 5px; font-size: 15px;margin: 10px; text-align: left;}"
 
 // ::-webkit-scrollbar
 thestyle.innerText += "::-webkit-scrollbar {display: none;}"
