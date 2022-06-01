@@ -5,6 +5,8 @@ An addon to [Avo](https://github.com/FogNetwork/Avo) and the successor to [avo-u
 
 A new favlet featuring unblocked dev tools, games, and more!
 
+⚠️Do **not** use `bookmarklet.txt` as the project is in alpha and can be unstable. (This file is for alpha testing **only**!)
+
 ### Todo:
 - Change the favlet style (Done✔️)
 - Add more games (Done✔️)
