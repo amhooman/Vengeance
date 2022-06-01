@@ -7,7 +7,7 @@ A new favlet featuring unblocked dev tools, games, and more!
 
 ### Todo:
 - Change the favlet style (Done✔️)
-- Add more games (In Progress🚧)
+- Add more games (Done✔️)
 - Add Shadow DOM
 - Add focus to integrated games (Done✔️)
 - Add update check
