@@ -122,55 +122,55 @@ grey.setAttribute("onclick", "greyscale()")
 grey.setAttribute("class", "obtn")
 grey.innerText = "Toggle Greyscale"
 var stk = document.createElement("button")
-stk.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='other/stack.js';document.body.appendChild(script);avoclosedevtools()}())")
+stk.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/Browncha023/Vengeance@main/other/stack.min.js';document.body.appendChild(script);avoclosedevtools()}())")
 stk.setAttribute("class", "obtn")
 stk.innerText = "Stack"
 var pio = document.createElement("button")
-pio.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='other/pio.js';document.body.appendChild(script);avoclosedevtools()}())")
+pio.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/Browncha023/Vengeance@main/other/pio.min.js';document.body.appendChild(script);avoclosedevtools()}())")
 pio.setAttribute("class", "obtn")
 pio.innerText = "Paper.io 2"
 var c3 = document.createElement("button")
-c3.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='other/c3.js';document.body.appendChild(script);avoclosedevtools()}())")
+c3.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/Browncha023/Vengeance@main/other/c3.min.js';document.body.appendChild(script);avoclosedevtools()}())")
 c3.setAttribute("class", "obtn")
 c3.innerText = "Connect 3"
 var cd = document.createElement("button")
-cd.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='other/cd.js';document.body.appendChild(script);avoclosedevtools()}())")
+cd.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/Browncha023/Vengeance@main/other/cd.min.js';document.body.appendChild(script);avoclosedevtools()}())")
 cd.setAttribute("class", "obtn")
 cd.innerText = "Chrome Dino"
 var tgo = document.createElement("button")
-tgo.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='other/2048go.js';document.body.appendChild(script);avoclosedevtools()}())")
+tgo.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/Browncha023/Vengeance@main/other/2048go.min.js';document.body.appendChild(script);avoclosedevtools()}())")
 tgo.setAttribute("class", "obtn")
 tgo.innerText = "2048go"
 var circ = document.createElement("button")
-circ.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='other/circloO_script.js';document.body.appendChild(script);avoclosedevtools()}())")
+circ.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/Browncha023/Vengeance@main/other/circloO_script.min.js';document.body.appendChild(script);avoclosedevtools()}())")
 circ.setAttribute("class", "obtn")
 circ.innerText = "CircloO"
 var ugly = document.createElement("button")
-ugly.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='other/ugly.js';document.body.appendChild(script);avoclosedevtools()}())")
+ugly.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/Browncha023/Vengeance@main/other/ugly.min.js';document.body.appendChild(script);avoclosedevtools()}())")
 ugly.setAttribute("class", "obtn")
 ugly.innerText = "Uglify"
 var piano = document.createElement("button")
-piano.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='other/piano.js';document.body.appendChild(script);avoclosedevtools()}())")
+piano.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/Browncha023/Vengeance@main/other/piano.min.js';document.body.appendChild(script);avoclosedevtools()}())")
 piano.setAttribute("class", "obtn")
 piano.innerText = "Piano"
 var tri = document.createElement("button")
-tri.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='other/tri.js';document.body.appendChild(script);avoclosedevtools()}())")
+tri.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/Browncha023/Vengeance@main/other/tri.min.js';document.body.appendChild(script);avoclosedevtools()}())")
 tri.setAttribute("class", "obtn")
 tri.innerText = "TriView"
 var mlight = document.createElement("button")
-mlight.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='other/mlight.js';document.body.appendChild(script);avoclosedevtools()}())")
+mlight.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/Browncha023/Vengeance@main/other/mlight.min.js';document.body.appendChild(script);avoclosedevtools()}())")
 mlight.setAttribute("class", "obtn")
 mlight.innerText = "MouseLight"
 var dark = document.createElement("button")
-dark.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='other/dark.js';document.body.appendChild(script);avoclosedevtools()}())")
+dark.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/Browncha023/Vengeance@main/other/dark.min.js';document.body.appendChild(script);avoclosedevtools()}())")
 dark.setAttribute("class", "obtn")
 dark.innerText = "Dark Mode"
 var click = document.createElement("button")
-click.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='other/autoclicker.js';document.body.appendChild(script);avoclosedevtools()}())")
+click.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/Browncha023/Vengeance@main/other/autoclicker.min.js';document.body.appendChild(script);avoclosedevtools()}())")
 click.setAttribute("class", "obtn")
 click.innerText = "Autoclicker"
 var tic = document.createElement("button")
-tic.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='other/tic.js';document.body.appendChild(script);avoclosedevtools()}())")
+tic.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/Browncha023/Vengeance@main/other/tic.min.js';document.body.appendChild(script);avoclosedevtools()}())")
 tic.setAttribute("class", "obtn")
 tic.innerText = "Ultimate Tic-Tac-Toe"
 otherstuff.setAttribute("class", "avotheother")
