@@ -12,6 +12,6 @@ A new favlet featuring unblocked dev tools, games, and more!
 - Add more games (Done✔️)
 - Add Shadow DOM
 - Add focus to integrated games (Done✔️)
-- Add update check
+- Add update check (Done✔️)
 
 (*While these features are planned, they are subject to change due to the project being in alpha!*)
