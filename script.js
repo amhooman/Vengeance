@@ -1,3 +1,24 @@
+// Update Check
+function readTextFile(file, callback) {
+  var rawFile = new XMLHttpRequest();
+  rawFile.overrideMimeType("application/json");
+  rawFile.open("GET", file, true);
+  rawFile.onreadystatechange = function() {
+    if (rawFile.readyState === 4 && rawFile.status == "200") {
+        callback(rawFile.responseText);
+     }
+  }
+  rawFile.send(null);
+}
+readTextFile("https://raw.githubusercontent.com/Browncha023/Vengeance/main/other/version.json", function(text){
+  var data = JSON.parse(text);
+  const hasValue = Object.values(data).includes("v0.4.0-alpha");
+  if (!hasValue)
+  {
+    prompt("A new update is available!\nCopy the url below and enter it in a new tab for instructions on updating:", "https://github.com/Browncha023/Vengeance/blob/main/README.md");
+  }
+});
+
 // Main Div
 var devtools = document.createElement("div")
 devtools.setAttribute("class", "avodevtools")
