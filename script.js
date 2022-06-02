@@ -12,7 +12,7 @@ function readTextFile(file, callback) {
 }
 readTextFile("https://raw.githubusercontent.com/Browncha023/Vengeance/main/other/version.json", function(text){
   var data = JSON.parse(text);
-  const hasValue = Object.values(data).includes("v0.4.1-alpha");
+  const hasValue = Object.values(data).includes("v0.4.2-alpha");
   if (!hasValue)
   {
     prompt("A new update is available!\nCopy the url below and enter it in a new tab for instructions on updating:", "https://github.com/Browncha023/Vengeance/blob/main/README.md");
