@@ -12,7 +12,7 @@ function readTextFile(file, callback) {
 }
 readTextFile("https://raw.githubusercontent.com/Browncha023/Vengeance/main/other/version.json", function(text){
   var data = JSON.parse(text);
-  const hasValue = Object.values(data).includes("v0.5.0-alpha");
+  const hasValue = Object.values(data).includes("v0.5.1-alpha");
   if (!hasValue)
   {
     prompt("A new update is available!\nCopy the url below and enter it in a new tab for instructions on updating:", "https://github.com/Browncha023/Vengeance/blob/main/README.md");
@@ -163,7 +163,7 @@ tgo.setAttribute("onclick", "javascript:(function () {var script=document.create
 tgo.setAttribute("class", "obtn")
 tgo.innerText = "2048go"
 var circ = document.createElement("button")
-circ.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/Browncha023/Vengeance/other/circloO_script.min.js';document.body.appendChild(script);avoclosedevtools()}())")
+circ.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/Browncha023/Vengeance/other/circloO.min.js';document.body.appendChild(script);avoclosedevtools()}())")
 circ.setAttribute("class", "obtn")
 circ.innerText = "CircloO"
 var ugly = document.createElement("button")
