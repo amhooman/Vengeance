@@ -13,5 +13,6 @@ A new favlet featuring unblocked dev tools, games, and more!
 - Add Tab Cloaking
 - Add Shadow DOM
 - Sort "Other" Features Into A Directory
+- Rewrite Main Source
 
 (*While these features are planned, they are subject to change due to the project being in alpha!*)
