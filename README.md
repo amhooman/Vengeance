@@ -14,5 +14,6 @@ A new favlet featuring unblocked dev tools, games, and more!
 - Add Shadow DOM
 - Sort "Other" Features Into A Directory
 - Rewrite Main Source
+- Fix 2048go Github Link
 
 (*While these features are planned, they are subject to change due to the project being in alpha!*)
