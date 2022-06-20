@@ -7,6 +7,8 @@ A new favlet featuring unblocked dev tools, games, and more!
 
 ⚠️Do **not** use `bookmarklet.txt` as the project is in alpha and can be unstable. (This file is for alpha testing **only**!)
 
+⚠️Upon release there will be **no** further updates! (Excluding unblocking updates!)
+
 ### Todo:
 - Add Tab Cloaking
 - Combine Source/Re-introduce Version Check
