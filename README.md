@@ -10,9 +10,6 @@ A new favlet featuring unblocked dev tools, games, and more!
 ⚠️Upon release there will be **no** further updates! (Excluding unblocking updates!)
 
 ### Todo:
-- Add Tab Cloaking
-- Combine Source/Re-introduce Version Check
-- Sort "Other" Features Into A Directory
 - Rewrite Main Source
 - Fix 2048go Github Link
 
