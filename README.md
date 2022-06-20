@@ -9,7 +9,6 @@ A new favlet featuring unblocked dev tools, games, and more!
 
 ### Todo:
 - Add Tab Cloaking
-- Add Shadow DOM/Refactor As I-frame
 - Combine Source/Re-introduce Version Check
 - Sort "Other" Features Into A Directory
 - Rewrite Main Source
