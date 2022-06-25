@@ -5,9 +5,11 @@ An addon to [Avo](https://github.com/FogNetwork/Avo) and the successor to [avo-u
 
 A new favlet featuring unblocked dev tools, games, and more!
 
-```javascript:(function () {var a = document.createElement('script');a.src = 'https://cdn.jsdelivr.net/gh/Browncha023/Vengeance@v1.0.0-alpha/script.min.js';document.body.appendChild(a);}())```
+⚠️Do **not** use the code below, as the project is in alpha and can be unstable. (This file is for alpha testing **only**!)
 
-⚠️Do **not** use the above code, as the project is in alpha and can be unstable. (This file is for alpha testing **only**!)
+```js
+javascript:(function () {var a = document.createElement('script');a.src = 'https://cdn.jsdelivr.net/gh/Browncha023/Vengeance@v1.0.0-alpha/script.min.js';document.body.appendChild(a);}())
+```
 
 ⚠️Upon release, there **may** not be any further updates! (Excluding unblocking updates!)
 
