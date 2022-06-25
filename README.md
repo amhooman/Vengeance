@@ -7,7 +7,7 @@ A new favlet featuring unblocked dev tools, games, and more!
 
 ⚠️Do **not** use `bookmarklet.txt` as the project is in alpha and can be unstable. (This file is for alpha testing **only**!)
 
-⚠️Upon release there may not be any further updates! (Excluding unblocking updates!)
+⚠️Upon release, there **may** not be any further updates! (Excluding unblocking updates!)
 
 ### Todo:
 - Fix Tab Cloak
