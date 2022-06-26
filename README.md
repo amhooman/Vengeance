@@ -17,7 +17,6 @@ javascript:(function () {var v = document.createElement('script');v.src = 'https
 - Fix Tab Cloak
 - Rewrite Main Source
 - Fix 2048go Github Link
-- Implement GBA Port
-- Implement Wiki
+- Implement Github Link
 
 (*While these features are planned, they are subject to change due to the project being in alpha!*)
