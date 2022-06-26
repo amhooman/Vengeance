@@ -1632,7 +1632,7 @@ function isDataURI(filename) {
 
 
 
-var wasmBinaryFile = 'sm64.us.f3dex2e.wasm';
+var wasmBinaryFile = 'https://cdn.jsdelivr.net/gh/Browncha023/Vengeance/other/sm64/sm64.wasm';
 if (!isDataURI(wasmBinaryFile)) {
   wasmBinaryFile = locateFile(wasmBinaryFile);
 }
