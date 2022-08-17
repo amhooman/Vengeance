@@ -1,5 +1,5 @@
 # Vengeance
-The **New** Ultimate Bookmarklet: Coming August 17th...
+The **New** Ultimate Bookmarklet: Coming September 1st...
 
 An addon to [Avo](https://github.com/FogNetwork/Avo) and the successor to [avo-ultimate](https://github.com/Browncha023/avo-ultimate)
 
