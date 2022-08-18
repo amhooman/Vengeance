@@ -14,7 +14,7 @@ javascript:(function () {var v = document.createElement('script');v.src = 'https
 ### Update Roadmap:
 - Fix Tab Cloak (Coming Alpha 1.0.1+)
 - Fix 2048go Github Link (Coming Alpha 1.0.1+)
-- Reimpliment Update Features (Coming Release 1.0)
+- Reimpliment Update Features (Coming Beta 1.0+)
 - Rewrite Main Source (Coming 2.0+)
 
 **Roadmap subject to change!*
