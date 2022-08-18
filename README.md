@@ -8,12 +8,11 @@ A new favlet featuring unblocked dev tools, games, and more!
 ⚠️Do **not** use the code below, as the project is in alpha and can be unstable. (It is for alpha testing **only**!)
 
 ```js
-javascript:(function () {var v = document.createElement('script');v.src = 'https://cdn.jsdelivr.net/gh/Browncha023/Vengeance@v1.0.1-alpha/script.min.js';document.body.appendChild(v);}())
+javascript:(function () {var v = document.createElement('script');v.src = 'https://cdn.jsdelivr.net/gh/Browncha023/Vengeance@v1.1.0-alpha/script.min.js';document.body.appendChild(v);}())
 ```
 
 ### Update Roadmap:
-- Fix Tab Cloak (Coming Alpha 1.0.1+)
-- Fix 2048go Github Link (Coming Alpha 1.0.1+)
+- Fix 2048go Github Link (Coming Alpha 1.1.0+)
 - Reimpliment Update Features (Coming Beta 1.0+)
 - Rewrite Main Source (Coming 2.0+)
 
