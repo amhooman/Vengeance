@@ -123,7 +123,7 @@ gh.setAttribute("onclick", "javascript:(function () {var script=document.createE
 gh.setAttribute("class", "obtn")
 gh.innerText = "Game Hub"
 var tc = document.createElement("button")
-tc.setAttribute("onclick", "javascript:(function () {document.title=prompt('Welcome to the Vengeance Tab Cloak setup!\n\nEnter the title you want to set for this tab:');var icon=document.querySelector(`link[rel='icon']`);if (!icon) {icon = document.createElement('link');icon.rel='icon';};switch(prompt('What icon would you like to use?\n\n{1} Google Search\n{2} Google Drive\n{3} Canvas\n{4} Custom URL\n\nPlease only enter a number!%27)){case%271%27:icon.setAttribute(%27href%27,%27https://www.google.com/favicon.ico%27);break;case%272%27:icon.setAttribute(%27href%27,%27https://ssl.gstatic.com/images/branding/product/1x/drive_2020q4_32dp.png%27);break;case%273%27:icon.setAttribute(%27href%27,%27https://du11hjcvx0uqb.cloudfront.net/dist/images/favicon-e10d657a73.ico%27);break;case%274%27:icon.setAttribute(%27href%27,prompt(%27Please enter the URL for the icon you want:%27));} document.head.appendChild(icon)}())")
+tc.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/Browncha023/Vengeance/other/tc.min.js';document.body.appendChild(script)}())")
 tc.setAttribute("class", "obtn")
 tc.innerText = "Tab Cloak"
 var ugly = document.createElement("button")
