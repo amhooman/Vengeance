@@ -11,12 +11,10 @@ A new favlet featuring unblocked dev tools, games, and more!
 javascript:(function () {var v = document.createElement('script');v.src = 'https://cdn.jsdelivr.net/gh/Browncha023/Vengeance@v1.0.1-alpha/script.min.js';document.body.appendChild(v);}())
 ```
 
-⚠️Upon release, there **may** not be any further updates! (Excluding unblocking updates!)
-
-### Todo:
-- Fix Tab Cloak
-- Rewrite Main Source
-- Fix 2048go Github Link
-- Implement Github Link
+### Update Roadmap:
+- Fix Tab Cloak (Coming Alpha 1.0.1+)
+- Fix 2048go Github Link (Coming Alpha 1.0.1+)
+- Reimpliment Update Features (Coming Release 1.0)
+- Rewrite Main Source (Coming 2.0+)
 
 (*While these features are planned, they are subject to change due to the project being in alpha!*)
