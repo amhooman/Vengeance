@@ -111,6 +111,7 @@ var br7 = document.createElement("br")
 var br8 = document.createElement("br")
 var br9 = document.createElement("br")
 var br10 = document.createElement("br")
+var br11 = document.createElement("br")
 otherstuff.innerText = "Other Features:"
 var grey = document.createElement("button")
 var clicked = false;
@@ -153,6 +154,9 @@ var tic = document.createElement("button")
 tic.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/Browncha023/Vengeance/other/tic.min.js';document.body.appendChild(script);avoclosedevtools()}())")
 tic.setAttribute("class", "obtn")
 tic.innerText = "Ultimate Tic-Tac-Toe"
+var git = document.createElement("button")
+git.setAttribute("class", "obtn")
+git.innerHTML = "<a href='https://github.com/Browncha023/Vengeance' target='_blank' style='text-decoration:none; color:#aaa;'>Github <i class='fa fa-github'></i></a>"
 otherstuff.setAttribute("class", "avotheother")
 devtools.appendChild(otherstuff)
 otherstuff.appendChild(br)
@@ -175,13 +179,15 @@ otherstuff.appendChild(br9)
 otherstuff.appendChild(grey)
 otherstuff.appendChild(br10)
 otherstuff.appendChild(tic)
+otherstuff.appendChild(br11)
+otherstuff.appendChild(git)
 
 // Style Element
 var thestyle = document.createElement("style")
 thestyle.id = "avostyle"
 
 // Fonts
-thestyle.innerText = "@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');"
+thestyle.innerText = "@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');"
 
 // Roboto
 thestyle.innerText += ".avodevtools {font-family: Roboto;}"
@@ -192,7 +198,7 @@ thestyle.innerText += ".avodevtools {position: fixed; right: 8px; top: 8px; bott
 // .elements
 thestyle.innerText += ".avoelements {cursor: pointer; outline: none; background: transparent; color: #aaa; font-size: 20px; border: 2px solid #B026FF; margin: 0; margin-top: 10px; border-right: none; border-left: none;}"
 
-thestyle.innerText += ".avoelements:hover {background: #1c1c1c;}"
+thestyle.innerText += ".avoelements:hover {background: #0d0d0d;}"
 
 // .thecode
 thestyle.innerText += ".avothecode {border: 1px solid white; margin: 5px; margin-top: 10px; border-radius: 10px; padding: 5px; overflow: scroll; text-align: left; height: 90%;}"
@@ -203,32 +209,32 @@ thestyle.innerText += ".avotheother {border: 1px solid white; margin: 5px; margi
 // .edit
 thestyle.innerText += ".avoedit {cursor: pointer; outline: none; background: transparent; color: #aaa; font-size: 20px; border: 2px solid #B026FF; border-radius: 10px 0 0 10px; margin: 0; margin-top: 10px; margin-left: 5px;}"
 
-thestyle.innerText += ".avoedit:hover {background: #1c1c1c;}"
+thestyle.innerText += ".avoedit:hover {background: #0d0d0d;}"
 
 // .obtn
-thestyle.innerText += ".obtn {cursor: pointer; outline: none; background: transparent; color: #aaa; font-size: 20px; border: 2px solid #B026FF; border-radius: 10px; margin: 0; margin-top: 10px; margin-left: 5px;}"
+thestyle.innerText += ".obtn {cursor: pointer; outline: none; background: transparent; color: #aaa; font-size: 20px; border: 2px solid #B026FF; border-radius: 10px; margin: 0; margin-top: 10px; margin-left: 5px;} .obtn:hover {background: #0d0d0d;}"
 
-thestyle.innerText += "#greybtn:hover {background: #1c1c1c;}"
+thestyle.innerText += "#greybtn:hover {background: #0d0d0d;}"
 
 // .xray
 thestyle.innerText += ".avoxray {cursor: pointer; outline: none; background: transparent; color: #aaa; font-size: 20px; border: 2px solid #B026FF; margin: 0; margin-top: 10px; border-left: none;}"
 
-thestyle.innerText += ".avoxray:hover {background: #1c1c1c;}"
+thestyle.innerText += ".avoxray:hover {background: #0d0d0d;}"
 
 // .console
 thestyle.innerText += ".avoconsole {cursor: pointer; outline: none; background: transparent; color: #aaa; font-size: 20px; border: 2px solid #B026FF; border-right: none; margin: 0; margin-top: 10px;}"
 
-thestyle.innerText += ".avoconsole:hover {background: #1c1c1c;}"
+thestyle.innerText += ".avoconsole:hover {background: #0d0d0d;}"
 
 // .other
 thestyle.innerText += ".avoother {cursor: pointer; outline: none; background: transparent; color: #aaa; font-size: 20px; border: 2px solid #B026FF; border-radius: 0 10px 10px 0; margin: 0; margin-top: 10px;}"
 
-thestyle.innerText += ".avoother:hover {background: #1c1c1c;}"
+thestyle.innerText += ".avoother:hover {background: #0d0d0d;}"
 
 // .closebtn
 thestyle.innerText += ".avoclosebtn {cursor: pointer; outline: none; background: transparent; color: #aaa; font-size: 20px; border: 2px solid #B026FF; border-radius: 10px; margin-right: 10px; margin-top: 10px; float: right;}"
 
-thestyle.innerText += ".avoclosebtn:hover {background: #1c1c1c;}"
+thestyle.innerText += ".avoclosebtn:hover {background: #0d0d0d;}"
 
 // .active
 thestyle.innerText += ".avoactive {background: #B026FF; color: white;}"
