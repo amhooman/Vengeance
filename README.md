@@ -12,7 +12,6 @@ javascript:(function () {var v = document.createElement('script');v.src = 'https
 ```
 
 ### Update Roadmap:
-- Fix 2048go Github Link (Coming Alpha 1.1.0+)
 - Reimpliment Update Features (Coming Beta 1.0+)
 - Rewrite Main Source (Coming 2.0+)
 
