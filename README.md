@@ -13,6 +13,7 @@ javascript:(function () {var v = document.createElement('script');v.src = 'https
 
 ### Update Roadmap:
 - Release (Coming 1.0)
-- Rewrite Main Source (Coming 2.0+)
+- vGBA (Coming 2.0+)
+- Rewrite Main Source (Coming 3.0+)
 
 **Roadmap subject to change!*
