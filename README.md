@@ -31,6 +31,7 @@ javascript:(function () {var v = document.createElement('script');v.src = 'https
 - If you have a problem with something else such as the games not working anywhere, contact me @ browncha023@alpinsd.org (For `Alpine School District`) or @ cjbrown402@gmail.com (For `Other`)
 
 #### Update Roadmap:
+- Superhot (Coming 2.0+)
 - vGBA (Coming 2.0+)
 - Rewrite Main Source (Coming 3.0+)
 
