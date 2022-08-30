@@ -19,6 +19,7 @@ javascript:(function () {var v = document.createElement('script');v.src = 'https
 ### Features
 - Unblocked dev tools including an improved edit function
 - A game hub featuring 8+ fun games to mess around with
+- Tab specific saving for games
 - Several different other functions to utilize
 - An update function and future update roadmap
 - Can't be blocked by the school by using several different tactics
