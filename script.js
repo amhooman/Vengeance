@@ -10,12 +10,12 @@ function readTextFile(file, callback) {
   }
   rawFile.send(null);
 }
-readTextFile("https://raw.githubusercontent.com/Browncha023/Vengeance/main/other/version.json", function(text){
+readTextFile("https://raw.githubusercontent.com/amhooman/Vengeance/main/other/version.json", function(text){
   var data = JSON.parse(text);
   const hasValue = Object.values(data).includes("v1.2.0");
   if (!hasValue)
   {
-    prompt("A new update is available!\nCopy the url below and enter it in a new tab for instructions on updating:", "https://github.com/Browncha023/Vengeance/blob/main/README.md");
+    prompt("A new update is available!\nCopy the url below and enter it in a new tab for instructions on updating:", "https://github.com/amhooman/Vengeance/blob/main/README.md");
   }
 });
 
@@ -148,7 +148,7 @@ tc.setAttribute("onclick", "javascript:(function () {var script=document.createE
 tc.setAttribute("class", "obtn")
 tc.innerText = "Tab Cloak"
 var ugly = document.createElement("button")
-ugly.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/Browncha023/Vengeance@1.2.0/other/ugly.min.js';document.body.appendChild(script);avoclosedevtools()}())")
+ugly.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/amhooman/Vengeance@1.2.0/other/ugly.min.js';document.body.appendChild(script);avoclosedevtools()}())")
 ugly.setAttribute("class", "obtn")
 ugly.innerText = "Uglify"
 var piano = document.createElement("button")
